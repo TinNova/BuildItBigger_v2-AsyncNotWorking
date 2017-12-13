@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, String> {
-        private static MyApi myApiService = null;
+        private MyApi myApiService = null;
         private Context context;
 
         @Override
